@@ -1,11 +1,13 @@
 dequeu
+
 import java.util.*;
+
 class Main {
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         Deque<Integer> d1=new LinkedList<>();
         d1.addFirst(8);
         d1.addLast(3);
-        d1.addFirst(1);
+d1.addFirst(1);
         System.out.println(d1);
          d1.addLast(3);
           d1.addLast(7);
